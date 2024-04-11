@@ -1,4 +1,4 @@
-import Classroom from './0-classroom';
+import Classroom from './0-classroom.js';
 
 function initializeRooms() {
   const obj1 = new Classroom(19);
