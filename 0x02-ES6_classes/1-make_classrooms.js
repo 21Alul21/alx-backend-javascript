@@ -7,5 +7,3 @@ function initializeRooms() {
   const array = [obj1, obj2, obj3];
   return array;
 }
-
-export default initializeRooms;
