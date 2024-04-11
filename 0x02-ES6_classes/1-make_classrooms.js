@@ -6,4 +6,5 @@ function initializeRooms() {
   const obj3 = new Classroom(31);
   const array = [obj1, obj2, obj3];
   return array;
-}
+};
+
