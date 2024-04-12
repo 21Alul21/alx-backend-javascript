@@ -1,17 +1,13 @@
-class Building {
+export default class Building {
   constructor(sqft) {
-    this._sqft = sqft;
+    this._sqft = sqft; // eslint-disable-line no-underscore-dangle
   }
 
-  // Getter method for sqft attribute
   get sqft() {
-    return this._sqft;
+    return this._sqft; // eslint-disable-line no-underscore-dangle
   }
 
-  // Abstract method for evacuation warning message
-  evacuationWarningMessage() {
+  evacuationWarningMessage() { // eslint-disable-line class-methods-use-this
     throw new Error('Class extending Building must override evacuationWarningMessage');
   }
 }
-
-export default Building;
