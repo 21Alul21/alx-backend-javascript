@@ -1,6 +1,4 @@
-import getListStudents from './0-get_list_students';
-
-function getListStudentIds(arr) {
+export default function getListStudentIds(arr) {
   if (!Array.isArray(arr)) {
     return [];
   }
