@@ -1,5 +1,5 @@
 export default function getResponseFromAPI() {
-  const myPromise = new Promise((resolve, reject) => {
+  const myPromise = new Promise((resolve) => {
     setTimeout(() => {
       console.log('to be delayed by 2s');
       resolve('the response');
